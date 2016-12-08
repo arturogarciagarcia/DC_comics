@@ -18,7 +18,18 @@ Se eligió esta problemática no porque sea un sistema que soluciona un problema
 #Desarrollo.
 La forma de utilizar las reglas y los Hechos en este programa es simultáneamente ya que se tienen que ir validado ciertas características de cada personaje al momento de ir avanzando en el árbol binario y de esta manera adivinar el personaje deseado.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/Reglas.png)
+**batman :- es_humano, verificar(logo_de_murcielago).**
+ 
+**superman :- super_fuerza, traje_azul, verificar(s_de_logo).**
+
+**super_boy :- super_fuerza, verificar(es_clon_de_superman).**
+ 
+**detective_marciano :- usa_capa, verificar(piel_verde).**
+ 
+**chico_bestia :- verificar(piel_verde).**
+
+ **aquaman :- super_fuerza, verificar(respira_bajo_el_agua).**
+
 
 Para diferenciar a los súper héroes hemos creado diferentes reglas y hechos para cada uno de ellos, por ejemplo Superman y súper boy son súper fuertes así que la manera para diferenciar uno del otro es porque súper boy es un clon de Superman, se crea el hecho de que súper boy es un clon y de esta manera se crea la regla que dice súper boy es súper fuerte y un clon de Superman.
 
