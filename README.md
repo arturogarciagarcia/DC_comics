@@ -15,7 +15,9 @@ Crear un programa con el cual se pueda adivinar el personaje de DCcomics que uno
 Se elijio esta problematica no porque sea un sistema que soluciona un problema en concreto si no porque fue una manera de entretener al alumno con un tema que a el le gustaba y asi insitarlo a estudiar e lenguaje de programacion prolog, de esta manera el alumno aprende a utilizar metodos en prolog y hacer uso de arboles binarios.
 
 #Desarrollo.
+La forma de utilizar las reglas y los Hechos en este programa es simultaneamente ya que se tienen que ir validado siertas caracteristicas de cada personaje al momento de ir abansando en el arbol binario y de esta manera adivinar el personaje deseado.
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 #Bibliografia.
 https://es.wikipedia.org/wiki/Programaci%C3%B3n_l%C3%B3gica
