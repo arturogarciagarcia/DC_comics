@@ -17,7 +17,7 @@ Se elijio esta problematica no porque sea un sistema que soluciona un problema e
 #Desarrollo.
 La forma de utilizar las reglas y los Hechos en este programa es simultaneamente ya que se tienen que ir validado siertas caracteristicas de cada personaje al momento de ir abansando en el arbol binario y de esta manera adivinar el personaje deseado.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/Reglas.png)
 
 #Bibliografia.
 https://es.wikipedia.org/wiki/Programaci%C3%B3n_l%C3%B3gica
