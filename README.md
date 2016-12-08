@@ -56,7 +56,7 @@ Primero se inicia el programa escribiendo start.
 ##Primer pregunta del programa.
 Comienza el sistema a hacer preguntas relacionadas a los súper héroes de acuerdo a los hechos previamente mencionados.
 
-**1 ?- start. **
+**1 ?- start.**
 
 **Piensa en un super heroe de DComics,**
 **Responde las siguientes preguntas** 
