@@ -1,70 +1,71 @@
-# Introduccion.
-##Programacion lógica.
+# Introducción.
+##Programación lógica.
 La programación lógica es un tipo de paradigmas de programación dentro del paradigma de programación declarativa. El resto de los subparadigmas de programación dentro de la programación declarativa son: programación funcional, programación con restricciones, programas DSL (de dominio específico) e híbridos. La programación funcional se basa en el concepto de función (que no es más que una evolución de los predicados), de corte más matemático. La programación lógica gira en torno al concepto de predicado, o relación entre elementos.
 
-##Aplicaciones de la programacion lógica.
+##Aplicaciones de la programación lógica.
 * Sistemas expertos.
 * Inteligencia artificial.
-* Construccion de compiladores.
-* Construccion de interpretes del lenguaje natural.
+* Construcción de compiladores.
+* Construcción de intérpretes del lenguaje natural.
 
-#Problematica.
-Crear un programa con el cual se pueda adivinar el personaje de DCcomics que uno este pensando, este programa funciona con la tecnica de arboles binarios.
+#Problemática.
+Crear un programa con el cual se pueda adivinar el personaje de DC comics que uno esté pensando, este programa funciona con la técnica de árboles binarios.
 
-#Justificacion.
-Se elijio esta problematica no porque sea un sistema que soluciona un problema en concreto si no porque fue una manera de entretener al alumno con un tema que a el le gustaba y asi insitarlo a estudiar e lenguaje de programacion prolog, de esta manera el alumno aprende a utilizar metodos en prolog y hacer uso de arboles binarios.
+#Justificación.
+Se eligió esta problemática no porque sea un sistema que soluciona un problema en concreto si no porque fue una manera de entretener al alumno con un tema que a él le gustaba y así incitarlo a estudiar el lenguaje de programación prolog, de esta manera el alumno aprende a utilizar métodos en prolog y hacer uso de árboles binarios.
 
 #Desarrollo.
-La forma de utilizar las reglas y los Hechos en este programa es simultaneamente ya que se tienen que ir validado siertas caracteristicas de cada personaje al momento de ir abansando en el arbol binario y de esta manera adivinar el personaje deseado.
+La forma de utilizar las reglas y los Hechos en este programa es simultáneamente ya que se tienen que ir validado ciertas características de cada personaje al momento de ir avanzando en el árbol binario y de esta manera adivinar el personaje deseado.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/Reglas.png)
 
-para diferenciar a los super heroes hemos creado diferentes reglas y hechos para cada uno de ellos, por ejemplo superman y super boy son super fuerte asi que la manera para diferenciar uno del otro es porque super boy es un clon de superman, se crea el hecho de que super boy es un clon y de esta manera se crea la regla que dice super boy es super fuerte y un clon de superman.
+Para diferenciar a los súper héroes hemos creado diferentes reglas y hechos para cada uno de ellos, por ejemplo Superman y súper boy son súper fuertes así que la manera para diferenciar uno del otro es porque súper boy es un clon de Superman, se crea el hecho de que súper boy es un clon y de esta manera se crea la regla que dice súper boy es súper fuerte y un clon de Superman.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/diferencias.png)
 
 ##Ejemplo del programa.
 ###Inicio del programa.
-En las siguientes imagenes se observa el camino en el arbol binario para llegar asta super boy.
+En las siguientes imágenes se observa el camino en el árbol binario para llegar hasta súper boy.
 Primero se inicia el programa escribiendo start.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/inicio.png)
 
 ##Primer pregunta del programa.
-Comienza el sistema a hacer preguntas relacionadas a los super heroes deacuerdo a los hechos previamente mencionados.
+Comienza el sistema a hacer preguntas relacionadas a los súper héroes de acuerdo a los hechos previamente mencionados.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/humano.png)
 
 ##Segunda pregunta del programa.
-Cuando contestamos las preguntas el programa toma un camino a seguir entre si y no, en este caso el super heroe no es un humano asi que le decimos que no.
+Cuando contestamos las preguntas el programa toma un camino a seguir entre si y no, en este caso el súper héroe no es un humano así que le decimos que no.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/segunda.png)
 
 ##Tercer pregunta del programa.
-Como nosotros no estamos buscando a un persnaje que un anillo verde le damos que no y nuevamente el sistema busca en sus hechos otro a evaluar, en esta pregunta ya es donde comenzamos a diferencia entre superman y super boy, en este caso los dos tienen super fuerza asi que le daremos que si.
+Como nosotros no estamos buscando a un personaje que un anillo verde le damos que no y nuevamente el sistema busca en sus hechos otro a evaluar, en esta pregunta ya es donde comenzamos a diferencia entre Superman y súper boy, en este caso los dos tienen súper fuerza así que le daremos que sí.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/tercera.png)
 
 ##Cuarta pregunta.
-En esta pregunta se separan en el arbol binario a superman y super boy ya que superman tiene un traje azul y super boy no lo tiene, asi que le damos que no.
+En esta pregunta se separan en el árbol binario a Superman y súper boy ya que Superman tiene un traje azul y súper boy no lo tiene, así que le damos que no.
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/cuarta.png)
 
-##Quinta preguna.
-Como mujer maravilla tambien es super fuerte hace la siguiente pregunta de si el personaje a buscar es mujer pero como estamos en busca de super boy le damos que no.
+##Quinta pregunta.
+Como mujer maravilla también es súper fuerte hace la siguiente pregunta de si el personaje a buscar es mujer pero como estamos en busca de súper boy le damos que no.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/quinta.png)
 ##Pregunta final.
-Despues de recorrer todas las ramas faltantes del arbol del lado de super fuerza llega a la opcion clon de superman donde super boy es el clon de superman en este caso le damos que si.
+Después de recorrer todas las ramas faltantes del árbol del lado de súper fuerza llega a la opción clon de Superman donde súper boy es el clon de Superman en este caso le damos que sí.
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/preguntafinal.png)
 
 ##Resultado.
-Cuando el programa llega a una hoja del arbol muestra el resultado ya sea que encontro al super heroe buscado o no, en este caso si lo encontro siendo el super heroe: super boy.
+Cuando el programa llega a una hoja del árbol muestra el resultado ya sea que encontró al súper héroe buscado o no, en este caso si lo encontró siendo el súper héroe: súper boy.
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/acierto.png)
 
-##conclusion.
-Prolog nos permite desarrollar un sistema que con el tiempo podemos llegar a desarrollarlo asta convertirlo en una inteligencia artificial, con este proyecto creamos un sistema de arbol binario donde puede clasificar y buscar las caracteristicas de algun personaje en este caso heroes de DC comics, este metodo se puede aplicar a diferentes areas para crear un sistema util en el sentido de solucionar una problematica de dudas o algo similiar.
+##conclusión.
+Prolog nos permite desarrollar un sistema que con el tiempo podemos llegar a desarrollarlo hasta convertirlo en una inteligencia artificial, con este proyecto creamos un sistema de árbol binario donde puede clasificar y buscar las características de algún personaje en este caso héroes de DC comics, este método se puede aplicar a diferentes áreas para crear un sistema útil en el sentido de solucionar una problemática de dudas o algo similar, con la ayuda de un sistema como github y Mark Down podemos tener un orden de lo que se está haciendo del proyecto y consigo una explicación de lo que este debe de realizar.
 
-#Bibliografia.
+#Bibliografía.
 https://es.wikipedia.org/wiki/Programaci%C3%B3n_l%C3%B3gica
 http://www.uhu.es/nieves.pavon/pprogramacion/temario/tema4/transparencias4.html
+
