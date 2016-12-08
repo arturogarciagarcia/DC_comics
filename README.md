@@ -93,21 +93,58 @@ Como nosotros no estamos buscando a un personaje que un anillo verde le damos qu
 
 ##Cuarta pregunta.
 En esta pregunta se separan en el árbol binario a Superman y súper boy ya que Superman tiene un traje azul y súper boy no lo tiene, así que le damos que no.
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/cuarta.png)
+
+
+**1 ?- start.**
+
+**Piensa en un super heroe de DComics,** 
+**Responde las siguientes preguntas**
+
+**¿Tiene el superheroe la siguiente característica: es_humano? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: usa_anillo_verde? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: super_fuerza? (s/n) s.**
+
+**¿Tiene el superheroe la siguiente característica: traje_azul? (s/n)**
 
 ##Quinta pregunta.
 Como mujer maravilla también es súper fuerte hace la siguiente pregunta de si el personaje a buscar es mujer pero como estamos en busca de súper boy le damos que no.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/quinta.png)
+**1 ?- start.**
+
+**Piensa en un super heroe de DComics,**
+**Responde las siguientes preguntas**
+
+**¿Tiene el superheroe la siguiente característica: es_humano? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: usa_anillo_verde? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: super_fuerza? (s/n) s.**
+
+**¿Tiene el superheroe la siguiente característica: traje_azul? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: es_mujer? (s/n)** 
+
 ##Pregunta final.
 Después de recorrer todas las ramas faltantes del árbol del lado de súper fuerza llega a la opción clon de Superman donde súper boy es el clon de Superman en este caso le damos que sí.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/preguntafinal.png)
+**¿Tiene el superheroe la siguiente característica: corre_rapido? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: es_mitad_robot? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: piel_verde? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: es_clon_de_superman? (s/n) s.**
 
 ##Resultado.
 Cuando el programa llega a una hoja del árbol muestra el resultado ya sea que encontró al súper héroe buscado o no, en este caso si lo encontró siendo el súper héroe: súper boy.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/acierto.png)
+**¿Tiene el superheroe la siguiente característica: es_clon_de_superman? (s/n) s.**
+
+****************************************
+**Creo que el superheroe es super_boy**
+****************************************
 
 ##conclusión.
 Prolog nos permite desarrollar un sistema que con el tiempo podemos llegar a desarrollarlo hasta convertirlo en una inteligencia artificial, con este proyecto creamos un sistema de árbol binario donde puede clasificar y buscar las características de algún personaje en este caso héroes de DC comics, este método se puede aplicar a diferentes áreas para crear un sistema útil en el sentido de solucionar una problemática de dudas o algo similar, con la ayuda de un sistema como github y Mark Down podemos tener un orden de lo que se está haciendo del proyecto y consigo una explicación de lo que este debe de realizar.
