@@ -23,6 +23,48 @@ para diferenciar a los super heroes hemos creado diferentes reglas y hechos para
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/diferencias.png)
 
+##Ejemplo del programa.
+###Inicio del programa.
+En las siguientes imagenes se observa el camino en el arbol binario para llegar asta super boy.
+Primero se inicia el programa escribiendo start.
+
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/inicio.png)
+
+##Primer pregunta del programa.
+Comienza el sistema a hacer preguntas relacionadas a los super heroes deacuerdo a los hechos previamente mencionados.
+
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/humano.png)
+
+##Segunda pregunta del programa.
+Cuando contestamos las preguntas el programa toma un camino a seguir entre si y no, en este caso el super heroe no es un humano asi que le decimos que no.
+
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/segunda.png)
+
+##Tercer pregunta del programa.
+Como nosotros no estamos buscando a un persnaje que un anillo verde le damos que no y nuevamente el sistema busca en sus hechos otro a evaluar, en esta pregunta ya es donde comenzamos a diferencia entre superman y super boy, en este caso los dos tienen super fuerza asi que le daremos que si.
+
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/tercera.png)
+
+##Cuarta pregunta.
+En esta pregunta se separan en el arbol binario a superman y super boy ya que superman tiene un traje azul y super boy no lo tiene, asi que le damos que no.
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/cuarta.png)
+
+##Quinta preguna.
+Como mujer maravilla tambien es super fuerte hace la siguiente pregunta de si el personaje a buscar es mujer pero como estamos en busca de super boy le damos que no.
+
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/quinta.png)
+##Pregunta final.
+Despues de recorrer todas las ramas faltantes del arbol del lado de super fuerza llega a la opcion clon de superman donde super boy es el clon de superman en este caso le damos que si.
+
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/preguntafinal.png)
+
+##Resultado.
+Cuando el programa llega a una hoja del arbol muestra el resultado ya sea que encontro al super heroe buscado o no, en este caso si lo encontro siendo el super heroe: super boy.
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/acierto.png)
+
+##conclusion.
+Prolog nos permite desarrollar un sistema que con el tiempo podemos llegar a desarrollarlo asta convertirlo en una inteligencia artificial, con este proyecto creamos un sistema de arbol binario donde puede clasificar y buscar las caracteristicas de algun personaje en este caso heroes de DC comics, este metodo se puede aplicar a diferentes areas para crear un sistema util en el sentido de solucionar una problematica de dudas o algo similiar.
+
 #Bibliografia.
 https://es.wikipedia.org/wiki/Programaci%C3%B3n_l%C3%B3gica
 http://www.uhu.es/nieves.pavon/pprogramacion/temario/tema4/transparencias4.html
