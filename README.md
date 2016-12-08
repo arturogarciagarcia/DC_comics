@@ -80,7 +80,16 @@ Cuando contestamos las preguntas el programa toma un camino a seguir entre si y 
 ##Tercer pregunta del programa.
 Como nosotros no estamos buscando a un personaje que un anillo verde le damos que no y nuevamente el sistema busca en sus hechos otro a evaluar, en esta pregunta ya es donde comenzamos a diferencia entre Superman y súper boy, en este caso los dos tienen súper fuerza así que le daremos que sí.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/tercera.png)
+**1 ?- start.**
+
+**Piensa en un super heroe de DComics,**
+**Responde las siguientes preguntas**
+
+**¿Tiene el superheroe la siguiente característica: es_humano? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: usa_anillo_verde? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: super_fuerza? (s/n)** 
 
 ##Cuarta pregunta.
 En esta pregunta se separan en el árbol binario a Superman y súper boy ya que Superman tiene un traje azul y súper boy no lo tiene, así que le damos que no.
