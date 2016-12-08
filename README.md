@@ -66,7 +66,16 @@ Comienza el sistema a hacer preguntas relacionadas a los súper héroes de acuer
 ##Segunda pregunta del programa.
 Cuando contestamos las preguntas el programa toma un camino a seguir entre si y no, en este caso el súper héroe no es un humano así que le decimos que no.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/segunda.png)
+**1 ?- start.**
+
+**Piensa en un super heroe de DComics,** 
+**Responde las siguientes preguntas**
+
+**¿Tiene el superheroe la siguiente característica: es_humano? (s/n) n.**
+
+**¿Tiene el superheroe la siguiente característica: usa_anillo_verde? (s/n)** 
+
+
 
 ##Tercer pregunta del programa.
 Como nosotros no estamos buscando a un personaje que un anillo verde le damos que no y nuevamente el sistema busca en sus hechos otro a evaluar, en esta pregunta ya es donde comenzamos a diferencia entre Superman y súper boy, en este caso los dos tienen súper fuerza así que le daremos que sí.
