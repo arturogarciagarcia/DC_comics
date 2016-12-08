@@ -19,6 +19,10 @@ La forma de utilizar las reglas y los Hechos en este programa es simultaneamente
 
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/Reglas.png)
 
+para diferenciar a los super heroes hemos creado diferentes reglas y hechos para cada uno de ellos, por ejemplo superman y mujer maravilla son super fuertes, pero los que los hace diferentes es el sexo de esta manera se sabe que superman es hombre y super fuerte y mujer maravilla es mujer y super fuerte.
+
+![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/diferencias.png)
+
 #Bibliografia.
 https://es.wikipedia.org/wiki/Programaci%C3%B3n_l%C3%B3gica
 http://www.uhu.es/nieves.pavon/pprogramacion/temario/tema4/transparencias4.html
