@@ -186,4 +186,80 @@ usa_capa :- verificar(usa_capa).
  
  es_mitad_robot :- verificar(es_mitad_robot).
  
-
+/* Función verificar, desde aquí llamaremos a la función que
+ 
+ preguntara por cada característica */
+ 
+ verificar(S) :-
+ 
+ (cumple(S)
+ 
+ ->
+ 
+ true ;
+ 
+ (no_cumple(S)
+ 
+ ->
+ 
+ fail ;
+ 
+ preguntar(S))).
+ 
+ /* Para avanzar por el árbol, se irán realizando preguntas con las
+ 
+ distintas características. Esto lo haremos con la función preguntar*/
+ 
+ preguntar(Pregunta) :-
+ 
+ write('¿Tiene el superheroe la siguiente característica: '),
+ 
+ write(Pregunta),
+ 
+ write('? (s/n) '),
+ 
+ read(Respuesta),
+ 
+ nl,
+ 
+ /*Avanzamos en función de la respuesta a la característica, hacia
+ 
+ una rama u otra del árbol */
+ 
+ /*Con assert, guardamos el camino seguido */
+ 
+ ( (Respuesta == s)
+ 
+ ->
+ 
+ assert(cumple(Pregunta)) ;
+ 
+ assert(no_cumple(Pregunta)), fail).
+ 
+ seguir_jugando :-
+ 
+ /*Ofrecemos la oportunidad de volver a jugar otra vez*/
+ 
+ write('¿Quieres seguir jugando? '),
+ 
+ read(Respuesta3),
+ 
+ ( (Respuesta3 == s)
+ 
+ ->
+ 
+ start ;
+ 
+ nl,
+ 
+ nl,
+ 
+ write('ESPERO QUE HAYAS DISFRUTADO JUGANDO CONMIGO'),
+ 
+ nl,
+ 
+ nl,
+ 
+ write('ADIOS'),
+ 
+ nl).
