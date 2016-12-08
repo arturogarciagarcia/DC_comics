@@ -1,3 +1,4 @@
+
 # Introducción.
 Este proyecto se busca poder desarrollar un sistema de adivinación, se usa el método de árboles binarios para hacer la búsqueda de las características al objeto que se adivinara, el sistema funciona haciendo diferentes preguntas de respuesta si y no, de acuerdo con lo  que el usuario responda, el sistema ira avanzando en las diferentes ramas hasta llegar a una hoja del árbol siendo esta hoja la respuesta. 
 ##Programación lógica.
@@ -142,9 +143,7 @@ Cuando el programa llega a una hoja del árbol muestra el resultado ya sea que e
 
 **¿Tiene el superheroe la siguiente característica: es_clon_de_superman? (s/n) s.**
 
-****************************************
 **Creo que el superheroe es super_boy**
-****************************************
 
 ##conclusión.
 Prolog nos permite desarrollar un sistema que con el tiempo podemos llegar a desarrollarlo hasta convertirlo en una inteligencia artificial, con este proyecto creamos un sistema de árbol binario donde puede clasificar y buscar las características de algún personaje en este caso héroes de DC comics, este método se puede aplicar a diferentes áreas para crear un sistema útil en el sentido de solucionar una problemática de dudas o algo similar, con la ayuda de un sistema como github y Mark Down podemos tener un orden de lo que se está haciendo del proyecto y consigo una explicación de lo que este debe de realizar.
