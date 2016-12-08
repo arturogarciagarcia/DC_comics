@@ -58,10 +58,10 @@ Comienza el sistema a hacer preguntas relacionadas a los súper héroes de acuer
 
 **1 ?- start. **
 
- ** Piensa en un super heroe de DComics, **  
- **Responde las siguientes preguntas **
+**Piensa en un super heroe de DComics,**
+**Responde las siguientes preguntas** 
 
- **¿Tiene el superheroe la siguiente característica: es_humano? (s/n) **
+**¿Tiene el superheroe la siguiente característica: es_humano? (s/n)** 
 
 ##Segunda pregunta del programa.
 Cuando contestamos las preguntas el programa toma un camino a seguir entre si y no, en este caso el súper héroe no es un humano así que le decimos que no.
