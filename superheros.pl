@@ -263,3 +263,17 @@ usa_capa :- verificar(usa_capa).
  write('ADIOS'),
  
  nl).
+/*Hace dinámicas las funciones que se van a añadir con assert*/
+ 
+ :- dynamic cumple/1,no_cumple/1,sera/1,verificar/1.
+ 
+ /* Borramos todos los valores almacenados con assert que indican el
+ 
+ camino seguido en el árbol */
+ 
+ borrar :- retract(cumple(_)),fail.
+ 
+ borrar :- retract(no_cumple(_)),fail.
+ 
+ borrar.
+ 
