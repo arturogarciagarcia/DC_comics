@@ -1,4 +1,5 @@
 # Introducción.
+Este proyecto se busca poder desarrollar un sistema de adivinación, se usa el método de árboles binarios para hacer la búsqueda de las características al objeto que se adivinara, el sistema funciona haciendo diferentes preguntas de respuesta si y no, de acuerdo con lo  que el usuario responda, el sistema ira avanzando en las diferentes ramas hasta llegar a una hoja del árbol siendo esta hoja la respuesta. 
 ##Programación lógica.
 La programación lógica es un tipo de paradigmas de programación dentro del paradigma de programación declarativa. El resto de los subparadigmas de programación dentro de la programación declarativa son: programación funcional, programación con restricciones, programas DSL (de dominio específico) e híbridos. La programación funcional se basa en el concepto de función (que no es más que una evolución de los predicados), de corte más matemático. La programación lógica gira en torno al concepto de predicado, o relación entre elementos.
 
@@ -60,6 +61,7 @@ Después de recorrer todas las ramas faltantes del árbol del lado de súper fue
 
 ##Resultado.
 Cuando el programa llega a una hoja del árbol muestra el resultado ya sea que encontró al súper héroe buscado o no, en este caso si lo encontró siendo el súper héroe: súper boy.
+
 ![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/acierto.png)
 
 ##conclusión.
