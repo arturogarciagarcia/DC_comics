@@ -1,3 +1,103 @@
+/* Piensa en un super heroe de DC comics
+ 
+Para empezar el juego, escribe: " ?- start." */
+ 
+/*Comienza el juego*/
+
+/*Para implementar el juego partiremos de un árbol en el que tendremos
+ 
+todos los animales que podemos adivinar y las relaciones entre ellos*/
+ 
+ start :-
+ 
+ nl,
+ 
+ write('Piensa en un super heroe de DComics, '),
+ 
+ nl,
+ 
+ write('Responde las siguientes preguntas'),
+ 
+ nl,
+ 
+ nl,
+ 
+ sera(Superheroe),
+ 
+ 
+ /*Cuando lleguemos a una hoja del árbol, habremos encontrado la
+ 
+ respuesta*/
+ 
+ nl,
+ 
+ nl,
+ 
+ write('****************************************'),
+ 
+ nl,
+ 
+ write('Creo que el superheroe es '),
+ 
+ write(Superheroe),
+ 
+ nl,
+ 
+ write('****************************************'),
+ 
+ nl,
+ 
+ nl,
+ 
+ /*Aprendizaje de nuestro programa*/
+ 
+ /*Comprobamos si hemos acertado el super heroe*/
+ 
+ write('¿He acertado? (s/n) '),
+ 
+ read(Respuesta),
+ 
+ nl,
+ 
+ /*En el caso de no haber acertado, intentamos introducir una
+ 
+ regla para su aprendizaje*/
+ 
+ ( (Respuesta == s)
+ 
+ ->
+ 
+ borrar,
+ 
+ seguir_jugando ;
+ 
+ write('¿cual superheroe es? '),
+ 
+ read(Respuesta1),
+ 
+ nl,
+ 
+ write('Dime una pregunta para '),
+ 
+ write(Respuesta1),
+ 
+ write(' que lo diferencie de '),
+ 
+ write(Superheroe),
+ 
+ write(': '),
+ 
+ read(Respuesta2),
+ 
+ nl,
+ 
+ nl,
+ 
+ asserta( (sera(Respuesta1) :- Superheroe, verificar(Respuesta2)) ) ,
+ 
+ borrar,
+ 
+ seguir_jugando).
 /* Hipótesis de superheroe que se van a comprobar */
  
  sera(batman) :- batman, !.
@@ -86,3 +186,4 @@ usa_capa :- verificar(usa_capa).
  
  es_mitad_robot :- verificar(es_mitad_robot).
  
+
