@@ -33,7 +33,18 @@ La forma de utilizar las reglas y los Hechos en este programa es simultáneament
 
 Para diferenciar a los súper héroes hemos creado diferentes reglas y hechos para cada uno de ellos, por ejemplo Superman y súper boy son súper fuertes así que la manera para diferenciar uno del otro es porque súper boy es un clon de Superman, se crea el hecho de que súper boy es un clon y de esta manera se crea la regla que dice súper boy es súper fuerte y un clon de Superman.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/diferencias.png)
+ **usa_anillo_verde :- verificar(usa_anillo_verde).**
+ 
+ **logo_de_murcielago :- verificar(su_logo_es_un_murcielago).**
+ 
+ **s_de_logo :- verificar(su_logo_es_una_s).**
+
+ **es_clon_de_superman :- verificar(es_clon_de_superman).**
+ 
+ **es_mujer :- verificar(es_mujer).**
+ 
+ **respira_bajo_el_agua :- verificar(respira_bajo_el_agua).**
+
 
 ##Ejemplo del programa.
 ###Inicio del programa.
