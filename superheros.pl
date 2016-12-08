@@ -101,7 +101,9 @@ todos los animales que podemos adivinar y las relaciones entre ellos*/
 /* Hipótesis de superheroe que se van a comprobar */
  
  sera(batman) :- batman, !.
- 
+
+ sera(linterna_verde) :- linterna_verde, !. 
+
  sera(superman) :- superman, !.
  
  sera(mujer_maravilla) :- mujer_maravilla, !.
@@ -119,14 +121,18 @@ todos los animales que podemos adivinar y las relaciones entre ellos*/
  sera(cyborg) :- cyborg, !.
  
  sera(chico_bestia) :- chico_bestia, !.
- 
+
+ sera(super_boy) :- super_boy, !. 
+
  /* Reglas con las que identificaremos los distintos super heroes */
  
  /*capa*/
  
  batman :- es_humano, verificar(logo_de_murcielago).
  
- superman :- super_fuerza, verificar(s_de_logo).
+ superman :- super_fuerza, traje_azul, verificar(s_de_logo).
+
+ super_boy :- super_fuerza, verificar(es_clon_de_superman).
  
  detective_marciano :- usa_capa, verificar(piel_verde).
  
@@ -156,19 +162,27 @@ todos los animales que podemos adivinar y las relaciones entre ellos*/
  cyborg :- verificar(es_mitad_robot).
  
  
+linterna_verde :- verificar(usa_anillo_verde).
 
+traje_azul :- verificar(traje_azul).
 
 super_fuerza :- verificar(super_fuerza).
 
 es_humano :- verificar(es_humano).
 
 usa_capa :- verificar(usa_capa).
+
  
  /* diferenciar a cada super heroe */
+usa_anillo_verde :- verificar(usa_anillo_verde).
  
  logo_de_murcielago :- verificar(su_logo_es_un_murcielago).
  
  s_de_logo :- verificar(su_logo_es_una_s).
+
+
+
+ es_clon_de_superman :- verificar(es_clon_de_superman).
  
  es_mujer :- verificar(es_mujer).
  
