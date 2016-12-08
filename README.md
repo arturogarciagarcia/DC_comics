@@ -51,12 +51,17 @@ Para diferenciar a los súper héroes hemos creado diferentes reglas y hechos pa
 En las siguientes imágenes se observa el camino en el árbol binario para llegar hasta súper boy.
 Primero se inicia el programa escribiendo start.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/inicio.png)
+**1 ?- start.**
 
 ##Primer pregunta del programa.
 Comienza el sistema a hacer preguntas relacionadas a los súper héroes de acuerdo a los hechos previamente mencionados.
 
-![alt text](https://github.com/arturogarciagarcia/DC_comics/blob/master/humano.png)
+**1 ?- start. **
+
+ ** Piensa en un super heroe de DComics, **  
+ **Responde las siguientes preguntas **
+
+ **¿Tiene el superheroe la siguiente característica: es_humano? (s/n) **
 
 ##Segunda pregunta del programa.
 Cuando contestamos las preguntas el programa toma un camino a seguir entre si y no, en este caso el súper héroe no es un humano así que le decimos que no.
